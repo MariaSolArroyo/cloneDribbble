@@ -1,0 +1,30 @@
+.input{
+    width: 100%;
+    padding: 5px 10px; /*arriba y abajo, izquierda derecha*/
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #5f5;
+    border: none;
+}
+
+.input[type="password"]{
+     color: red;
+}
+
+.input-moderno{
+    border: none;
+    border-bottom: 1px solid #999999;
+    outline: none;
+    background-color: #5f5;
+}
+
+.input-moderno:focus{
+    border-bottom: 1px solid #5f5;
+    outline: none;
+}
+
+.input[type:="text"]::placeholder{
+    color: #c2c2c2;
+    
+}
